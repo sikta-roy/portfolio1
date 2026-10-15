@@ -1,10 +1,10 @@
-# Sikta Roy — Portfolio
+# Sikta Roy - Portfolio
 
-Personal portfolio of Sikta Roy, M.Tech CSE (Information Security) student at NIT Calicut.
+Personal portfolio of Sikta Roy, M.Tech CSE student at NIT Calicut.
 
 **Live:** [portfolio1-sable-seven.vercel.app](https://portfolio1-sable-seven.vercel.app)
 
-![Portfolio preview](assets/preview.png)
+
 
 ## Featured Projects
 
