@@ -450,8 +450,9 @@ footer p {
 /* NEW: PROJECTS GRID */
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   margin: 2rem 0 4rem;
 }
@@ -459,6 +460,8 @@ footer p {
 .projects-grid .details-container {
   display: flex;
   flex-direction: column;
+  flex: 0 1 calc((100% - 4rem) / 3);
+  box-sizing: border-box;
 }
 
 .projects-grid .btn-container {

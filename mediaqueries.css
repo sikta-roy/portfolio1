@@ -11,8 +11,8 @@
     #experience {
       height: fit-content;
     }
-    .projects-grid {
-      grid-template-columns: repeat(2, 1fr);
+    .projects-grid .details-container {
+      flex-basis: calc((100% - 2rem) / 2);
     }
   }
   
@@ -53,8 +53,8 @@
   }
   
   @media screen and (max-width: 600px) {
-    .projects-grid {
-      grid-template-columns: 1fr;
+    .projects-grid .details-container {
+      flex-basis: 100%;
     }
     #contact,
     footer {
