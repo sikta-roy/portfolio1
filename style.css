@@ -316,6 +316,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
+#skills,
 #experience {
   position: relative;
 }
@@ -395,7 +396,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  background: rgb(250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -429,4 +430,49 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* NEW: EXPERIENCE CARDS */
+
+.timeline-card p {
+  margin-bottom: 0.6rem;
+}
+
+.timeline-card .experience-sub-title {
+  margin: 0.5rem 0;
+}
+
+.timeline-meta {
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+}
+
+/* NEW: PROJECTS GRID */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 0 4rem;
+}
+
+.projects-grid .details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-grid .btn-container {
+  margin-top: auto;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  margin: 0 0.5rem 0.5rem;
+}
+
+.project-stack {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: rgb(120, 120, 120);
 }

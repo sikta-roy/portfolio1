@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sikta's Portfolio</title>    
+    <meta name="description" content="Sikta Roy - M.Tech CSE (Information Security) at NIT Calicut. AI/ML developer and researcher." />
+    <title>Sikta's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    
   </head>
   <body>
     <nav id="desktop-nav">
@@ -16,6 +16,7 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -32,6 +33,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -45,7 +47,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Sikta Roy</h1>
-        <p class="section__text__p2">Software Developer</p>
+        <p class="section__text__p2">AI/ML Developer &amp; Researcher</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -62,13 +64,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/sikta-roy-2a0153234/'"
+            onclick="window.open('https://www.linkedin.com/in/sikta-roy-2a0153234/', '_blank')"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/sikta-roy'"
+            onclick="window.open('https://github.com/sikta-roy', '_blank')"
           />
         </div>
       </div>
@@ -84,7 +86,6 @@
             class="about-pic"
           />
         </div>
-        
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
@@ -94,7 +95,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>1+ years <br />Freelancing</p>
+              <p>Research Intern<br />TCS Research</p>
             </div>
             <div class="details-container">
               <img
@@ -103,12 +104,12 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Tech. Computer Science Engineering</p>
+              <p>M.Tech. CSE (Information Security)<br />NIT Calicut</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              I am a Computer Science and Engineering undergraduate with a 9.8 GPA, passionate about Artificial Intelligence, Machine Learning, and Data Analytics. I thrive on using AI and ML to develop impactful solutions and leveraging data analytics to understand and enhance real-world processes. Explore my work, and let’s connect to drive technological innovation forward!
+              I am an M.Tech student in Computer Science and Engineering (Information Security) at NIT Calicut, with a B.Tech in CSE (CGPA 9.73). I love AI, Machine Learning and Data Analytics, and I enjoy building useful products with them, from AI podcast and image tools to LLM-based research. At TCS Research, I studied how music listening relates to mental well-being using LLMs. Explore my work, and let's connect!
             </p>
           </div>
         </div>
@@ -117,21 +118,21 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#skills'"
       />
     </section>
-    <section id="experience">
+    <section id="skills">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Technical </h2>
+            <h2 class="experience-sub-title">Technical</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -142,18 +143,18 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
-                  <h3>AIML/DL</h3>
+                  <h3>AI / ML / DL</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -164,7 +165,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -175,7 +176,18 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next.js, TypeScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -186,7 +198,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -202,7 +214,18 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Information Security</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -213,7 +236,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -224,7 +247,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -235,7 +258,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="Checkmark icon"
                   class="icon"
                 />
                 <div>
@@ -251,6 +274,49 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">My Journey So Far</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container timeline-card">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h2 class="experience-sub-title">Research Intern</h2>
+            <p class="timeline-meta">TCS Research · May 2026 – July 2026</p>
+            <p>Explored links between music listening behaviour and mental well-being using Large Language Models (LLMs).</p>
+          </div>
+          <div class="details-container timeline-card">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h2 class="experience-sub-title">Study Abroad Program</h2>
+            <p class="timeline-meta">National University of Singapore</p>
+            <p>Artificial Intelligence, Internet of Things, Machine Learning &amp; Data Analytics – Fundamentals.</p>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container timeline-card">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h2 class="experience-sub-title">Education</h2>
+            <p><strong>M.Tech CSE (Information Security)</strong><br />NIT Calicut · 2025 – 2027 · CGPA 8.85</p>
+            <p><strong>B.Tech CSE</strong><br />IEM Kolkata · 2021 – 2025 · CGPA 9.73</p>
+          </div>
+          <div class="details-container timeline-card">
+            <img src="./assets/checkmark.png" alt="Certificate icon" class="icon" />
+            <h2 class="experience-sub-title">Certifications</h2>
+            <p>IBM Machine Learning</p>
+            <p>NPTEL Discipline Star</p>
+            <p>Udemy – The Complete 2023 Web Development Bootcamp</p>
+            <p>Udemy – Artificial Intelligence A-Z</p>
+            <p>AMCAT Certification</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
         onclick="location.href='./#projects'"
       />
     </section>
@@ -258,28 +324,102 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="projects-grid">
           <div class="details-container color-container">
             <div class="article-container">
               <img
                 src="./assets/project-1.png"
-                alt="Project 1"
+                alt="Pulse project"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Pulse</h2>
+            <p class="project-desc">AI SaaS for podcasts: text-to-audio with multi-voice AI, AI thumbnails and smooth playback.</p>
+            <p class="project-stack">Next.js · TypeScript · OpenAI · Tailwind</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sikta-roy/pulse'"
+                onclick="window.open('https://github.com/sikta-roy/pulse', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://pulse-iota-one.vercel.app/'"
+                onclick="window.open('https://pulse-iota-one.vercel.app/', '_blank')"
               >
                 Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Vivid Vision project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Vivid Vision</h2>
+            <p class="project-desc">AI image editor: restore photos, generative fill, remove or recolor objects and remove backgrounds.</p>
+            <p class="project-stack">Next.js · TypeScript · MongoDB · Clerk</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/sikta-roy/vivid-vision', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://vivid-vision-omega.vercel.app', '_blank')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Code Migration project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Code Migration</h2>
+            <p class="project-desc">Translates Python to Java, C++ and C with LLMs, then checks if the code compiles, passes tests and is memory-safe.</p>
+            <p class="project-stack">Python · LiteLLM · Ollama</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/sikta-roy/code-migration', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.png"
+                alt="Music &amp; Wellbeing project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Music &amp; Wellbeing</h2>
+            <p class="project-desc">Research study (TCS Research) on how music listening behaviour relates to mental well-being, using LLMs.</p>
+            <p class="project-stack">JavaScript · LLMs · Research</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/sikta-roy/Music-Listening-Behaviour-and-Mental-Wellbeing', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://sikta-roy.github.io/Music-Listening-Behaviour-and-Mental-Wellbeing/', '_blank')"
+              >
+                Live Site
               </button>
             </div>
           </div>
@@ -287,23 +427,19 @@
             <div class="article-container">
               <img
                 src="./assets/project-2.png"
-                alt="Project 2"
+                alt="Orator project"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Orator</h2>
+            <p class="project-desc">Android app that reads text from images (OCR) so you can copy it or hear it aloud (TTS).</p>
+            <p class="project-stack">Java · XML</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sikta-roy/Orator-initial'"
+                onclick="window.open('https://github.com/sikta-roy/Orator-initial', '_blank')"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sikta-roy/Orator-initial'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -311,21 +447,23 @@
             <div class="article-container">
               <img
                 src="./assets/project-3.png"
-                alt="Project 3"
+                alt="Drum Kit project"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Drum Kit</h2>
+            <p class="project-desc">A virtual drum kit for all the drum enthusiasts out there.</p>
+            <p class="project-stack">HTML · CSS · JavaScript</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/sikta-roy/drum-kit'"
+                onclick="window.open('https://github.com/sikta-roy/Drum-Kit', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://sikta-roy.github.io/Drum-Kit/'"
+                onclick="window.open('https://sikta-roy.github.io/Drum-Kit/', '_blank')"
               >
                 Live Demo
               </button>
@@ -350,7 +488,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="siktaroy27@gmail.com">siktaroy27@gmail.com</a></p>
+          <p><a href="mailto:siktaroy27@gmail.com">siktaroy27@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -358,7 +496,15 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/sikta-roy-2a0153234/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/sikta-roy-2a0153234/" target="_blank">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="GitHub icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/sikta-roy" target="_blank">GitHub</a></p>
         </div>
       </div>
     </section>
@@ -366,14 +512,15 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Sikta Roy. All Rights Reserved.</p>
+      <p>Copyright &#169; 2026 Sikta Roy. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
